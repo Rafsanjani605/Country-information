@@ -1,0 +1,51 @@
+.nav{
+    display: grid;
+    grid-template-row: 2fr 5fr;
+    background-color: rgba(0, 0, 223, 0.749);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+    color: aliceblue;
+}
+
+.header a{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.active{
+    background-color: aqua;
+}
+
+@media only screen and (min-width: 500px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        
+        color: aliceblue;
+    }
+    
+    .header a{
+        padding: 2px 19px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+   
+    }
+    
+    
